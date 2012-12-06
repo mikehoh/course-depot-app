@@ -7,9 +7,9 @@ one:
   price: 9.99
 
 two:
-  title: MyString
-  description: MyText
-  imageurl: MyString
+  title: MyString1
+  description: MyText1
+  imageurl: MyString1
   price: 9.99
 
 alice:
