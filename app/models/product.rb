@@ -1,7 +1,7 @@
 class Product < ActiveRecord::Base
 	default_scope :order=>'price'
 #	scope :cheap, lambda{where(:price<10)}
-	scope :cheap, where('price<10')
+	scope :cheap, where('price<100')
 
 	validates :title, :description, :imageurl, :price, :presence=>true
 	validates :title, :uniqueness=>true
