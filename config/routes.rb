@@ -1,4 +1,6 @@
 CourseDepotApp::Application.routes.draw do
+  resources :carts
+
   resources :products
 
   # The priority is based upon order of creation:
